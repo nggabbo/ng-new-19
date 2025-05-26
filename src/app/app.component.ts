@@ -12,10 +12,30 @@ export class AppComponent {
   copyTextClipboard(): void {
     const text = 'Hello, world!';
 
-    navigator.clipboard.writeText(text).then(() => {
-      console.log('Text copied to clipboard');
-    }).catch((err) => {
-      console.error('Failed to copy text: ', err);
-    });
+    navigator.clipboard
+      .writeText(text)
+      .then(() => {
+        console.log('Text copied to clipboard');
+      })
+      .catch((err) => {
+        console.error('Failed to copy text: ', err);
+      });
+  }
+
+  copyImageClipboard(): void {
+    const imageUrl = 'https://picsum.photos/500/200';
+
+    fetch(imageUrl)
+      .then((response) => response.blob())
+      .then((blob) => {
+        navigator.clipboard.write([
+          new ClipboardItem({
+            'image/jpeg': blob,
+          }),
+        ]);
+      })
+      .catch((err) => {
+        console.error('Failed to copy image: ', err);
+      });
   }
 }
