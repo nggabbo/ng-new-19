@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/nggabbo/ng-new-19/compare/v1.0.0...v1.1.0) (2025-05-26)
+
+
+### Features
+
+* :sparkles: add copy text button and functionality to clipboard in app.component ([c96861e](https://github.com/nggabbo/ng-new-19/commit/c96861e91d6bacc856917defcf7a6fe75ad04df7))
+* :sparkles: update app.component.html to display a random image and descriptive text ([374c7bd](https://github.com/nggabbo/ng-new-19/commit/374c7bddf27fd91e568e188e124118aaa5ccd8bc))
+
 ## 1.0.0 (2025-05-26)
 
 
