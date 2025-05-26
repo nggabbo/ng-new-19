@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/nggabbo/ng-new-19/compare/v1.1.0...v1.1.1) (2025-05-26)
+
+
+### Bug Fixes
+
+* update image dimensions in app.component.html to enhance display quality ([5602b37](https://github.com/nggabbo/ng-new-19/commit/5602b37ad03deb34fb8887b86c2c3c6cf94ac2c9))
+
 ## [1.1.0](https://github.com/nggabbo/ng-new-19/compare/v1.0.0...v1.1.0) (2025-05-26)
 
 
